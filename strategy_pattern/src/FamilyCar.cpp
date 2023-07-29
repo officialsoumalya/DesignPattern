@@ -3,3 +3,8 @@
 
 FamilyCar::FamilyCar():Vehicle(new NormalDrive())
 {}
+
+FamilyCar::~FamilyCar()
+{
+    cout<<"Family Car destructor called\n";
+}

@@ -10,6 +10,8 @@ class Vehicle
     Vehicle(DriveStrategy * d);
 
     virtual void drive();
+
+    virtual ~Vehicle();
 };
 
 #endif

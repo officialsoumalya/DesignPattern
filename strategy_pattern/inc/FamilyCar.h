@@ -9,6 +9,8 @@ class FamilyCar:public Vehicle
 {
     public:
     FamilyCar();
+    
+    ~FamilyCar();
 };
 
 #endif

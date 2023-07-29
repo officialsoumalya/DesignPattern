@@ -9,6 +9,8 @@ class RaceCar:public Vehicle
 {
     public:
     RaceCar();
+
+    ~RaceCar();
 };
 
 #endif
